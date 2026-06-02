@@ -8,6 +8,8 @@ The analysis includes data cleaning, exploratory data analysis (EDA), visualizat
 
 The goal is to better understand listener behavior and the characteristics that contribute to successful and popular songs.
 
+> **Note:** One large dataset file (~25–28 MB) has been excluded from this repository due to GitHub file size considerations.
+
 ---
 
 ## Technologies Used
@@ -25,12 +27,12 @@ The goal is to better understand listener behavior and the characteristics that 
 ## Project Workflow
 
 ### Data Collection and Preprocessing
-- Loaded Spotify dataset
-- Removed duplicates
+- Loaded Spotify datasets
+- Removed duplicate records
 - Handled missing values
-- Data cleaning and preparation
+- Cleaned and prepared data for analysis
 
-### Exploratory Data Analysis
+### Exploratory Data Analysis (EDA)
 - Distribution analysis of song features
 - Popularity analysis
 - Genre analysis
@@ -53,7 +55,7 @@ The goal is to better understand listener behavior and the characteristics that 
 ### User Preference Analysis
 - Listening habits
 - Genre preferences
-- Popular artist characteristics
+- Song characteristics
 
 ### Data Visualization
 - Bar Charts
@@ -63,42 +65,75 @@ The goal is to better understand listener behavior and the characteristics that 
 - Pair Plots
 
 ### Predictive Modeling
-- Song popularity prediction
+- Song Popularity Prediction
 - Linear Regression
-- Decision Trees
-- Model Evaluation
+- Decision Tree Models
+- Model Evaluation and Performance Analysis
 
 ---
 
-## Key Insights
+## Key Analysis Performed
 
-- Identified major song characteristics associated with popularity.
-- Analyzed trends in listener preferences.
-- Explored relationships between audio features.
-- Visualized patterns across genres and song attributes.
-- Built predictive models to forecast song popularity.
+### Music Trends Analysis
+- Examined trends in song popularity
+- Analyzed feature distributions
+- Identified patterns in listener preferences
+
+### Song Feature Analysis
+- Investigated audio characteristics
+- Compared feature relationships
+- Measured impact on popularity
+
+### User Preference Analysis
+- Explored listening behavior
+- Identified popular genres and song attributes
+
+### Visualization and Insights
+- Created visual representations of key findings
+- Used statistical analysis to derive meaningful insights
 
 ---
 
 ## Dataset Information
 
-The Spotify dataset contains song characteristics, popularity metrics, and audio features used for analysis and prediction.
+This project uses multiple Spotify datasets for data analysis, visualization, and predictive modeling.
 
-If the dataset is not included in this repository, it has been omitted due to GitHub file size limitations.
+The repository includes the primary datasets required to reproduce most of the analysis performed in the notebook.
+
+### Important Note
+
+One dataset file (approximately 25–28 MB) has not been uploaded to this repository due to GitHub upload and storage limitations.
+
+Despite the missing file, the repository still contains the notebook, supporting datasets, visualizations, and project documentation necessary to understand the workflow, methodology, and key findings.
+
+Users who wish to fully reproduce the analysis may replace the missing dataset with the original source dataset if available.
+
+---
+
+## Results
+
+The analysis provides valuable insights into:
+
+- Music trends and popularity patterns
+- User listening preferences
+- Relationships between audio features
+- Factors influencing song popularity
+- Predictive modeling performance
+
+These findings can help artists, producers, music platforms, and researchers better understand audience behavior and music consumption patterns.
 
 ---
 
 ## Repository Structure
 
+```text
 Spotify-Data-Analytics-Capstone
-
+│
 ├── README.md
-
 ├── spotify_analysis.ipynb
-
-├── dataset.csv (optional)
-
-└── images (optional)
+├── Dataset Files
+└── Visualizations (Optional)
+```
 
 ---
 
@@ -108,15 +143,26 @@ Spotify-Data-Analytics-Capstone
 - Data Analysis
 - Exploratory Data Analysis (EDA)
 - Data Visualization
-- Feature Engineering
+- Statistical Analysis
 - Machine Learning
 - Predictive Modeling
-- Statistical Analysis
+- Python Programming
+- Business Insight Generation
 
 ---
 
 ## Author
 
-Aditya Sharma
+**Aditya Sharma**
 
 BCA Student | Data Analytics Enthusiast
+
+---
+
+## Future Improvements
+
+- Include additional Spotify datasets
+- Improve prediction model accuracy
+- Perform advanced feature engineering
+- Build interactive dashboards using Power BI or Tableau
+- Deploy the analysis as a web application
